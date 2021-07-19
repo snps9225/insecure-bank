@@ -24,10 +24,12 @@ libraries {
   checkmarx {
     ProjectName = "CxServer\\SP\\Solarwinds\\MSP_N-Central\\Test_project"
     Language = "Java"
+    CxCred 	 = "Cx-Access"
   }
   
   whitesource {
     Product = "WhiteSource_Test"
     Project = "Test_jenkins"
+    User_Key = "user_key"
   }
 }
