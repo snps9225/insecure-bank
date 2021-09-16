@@ -1,5 +1,5 @@
 jte {
-	pipeline_template = "java"
+	pipeline_template = "app_code"
 }
 
 libraries {
@@ -29,11 +29,10 @@ libraries {
 	Language = "Java"
 	CxCred  = "Cx-Access"
 	}
-  	/*
+  	
 	whitesource {
 	Product = "WhiteSource_Test"
 	Project = "Test_jenkins_local"
 	User_Key = "user_key"
 	}
-	*/
 }
