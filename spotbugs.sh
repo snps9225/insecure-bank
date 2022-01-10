@@ -1,6 +1,6 @@
 #!/bin/bash
 
-java -jar ./spotbugs-4.5.3/lib/spotbugs.jar -textui -html=report.html .
+#java -jar ./spotbugs-4.5.3/lib/spotbugs.jar -textui -html=report.html .
 
 rm spotbugs-4.5.3.zip
 rm -rf spotbugs-4.5.3
